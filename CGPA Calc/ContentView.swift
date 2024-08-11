@@ -22,7 +22,7 @@ struct ContentView: View {
             
             CalcView().tabItem { Label("Calculate", systemImage: "plus.rectangle") }
             
-            HomeView(userData: .constant(userData())).tabItem { Label("Tracker", systemImage: "record.circle")}
+            HomeView(userData: .constant(userData())).tabItem { Label("My Tracker", systemImage: "record.circle")}
             
             
             
